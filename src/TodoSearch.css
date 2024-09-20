@@ -1,0 +1,32 @@
+.TodoSearch {
+  background: linear-gradient(335deg, #470d77, #910a5c);
+  border-radius: 20px; /* Aumenta el redondeado para que se vea más como una burbuja */
+  border: none; /* Eliminar el borde para un aspecto más suave */
+  margin: 24px auto;
+  height: 64px;
+  width: 90%;
+  max-width: 600px;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  box-shadow: 20px 20px 30px rgba(32, 35, 41, 0.3); /* Sombra más suave y difusa */
+  padding: 8px 20px; /* Añade más espacio interno */
+  display: flex;
+  align-items: center; /* Centrar verticalmente el contenido */
+  justify-content: center; /* Centrar horizontalmente el contenido */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.TodoSearch::placeholder {
+  color: #b8b8b8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.TodoSearch:focus {
+  outline: none; /* Quitar el borde predeterminado de enfoque */
+  box-shadow: 30px 28px 40px rgba(32, 35, 41, 0.5); /* Sombra más pronunciada en foco */
+  transform: scale(1.05); /* Pequeña animación de crecimiento */
+}
