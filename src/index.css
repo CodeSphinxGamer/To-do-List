@@ -5,7 +5,7 @@ body {
 
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   background: linear-gradient(rgba(2, 20, 93, 0.15), rgba(190, 19, 202, 0.12)),
-    url("/black.png");
+    url("./icons/black.png");
   /* background: linear-gradient(335deg, #0d1117, #1e293b, #3b3f5c, #0f4c75); */
 
   background-size: cover;

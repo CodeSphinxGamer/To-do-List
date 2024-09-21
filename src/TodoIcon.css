@@ -1,0 +1,50 @@
+.Icon-check--active {
+  background-image: url("./icons/checked.png"); /* Especifica la ruta de la imagen */
+  background-size: contain; /* Ajusta el tamaño para que la imagen se contenga dentro del elemento */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen */
+  color: transparent; /* Si no quieres que el texto sea visible */
+  width: 48px; /* Ajusta el ancho del icono */
+  height: 48px; /* Ajusta la altura del icono */
+  padding-left: 32px;
+}
+
+.Icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Icon-check {
+  position: absolute;
+  left: 12px;
+}
+
+.Icon-delete {
+  position: absolute;
+  top: -24px;
+  right: 0;
+}
+
+.Icon-delete:hover {
+  color: red;
+}
+
+.Icon-svg {
+  width: 24px;
+  height: 24px;
+  padding-left: 24px;
+}
+
+.Icon-container-check:hover .Icon-svg {
+  fill: green;
+}
+
+.Icon-container-delete:hover .Icon-svg {
+  fill: red;
+}
